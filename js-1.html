@@ -1,0 +1,251 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML @1 day</title>
+
+
+	<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<style>
+		body{
+			border:6px double greenyellow;
+			background-color: hotpink;
+			/* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgD6Bq_MCYSHqm7-uiWGXyd2kJLQhqAbRArg&usqp=CAU'); */
+			background-repeat: no-repeat;
+			background-size: 500px 600px;
+			font-size: 20px;
+			font-family: 'Times New Roman', Times, serif;
+			
+			
+			background-size: auto;
+		}
+		header{
+			border-bottom: 1px solid red;
+			height: 50px;
+			display: flex;
+
+		}
+		header div{
+			flex: 1;
+			border-bottom: 1px solid red;
+			height: 50px; 
+			display:flex:1px;
+
+		}
+		header nav{
+			flex: 3;
+		}
+		header nav ul{
+			display: flex;
+			text-decoration: none;
+		}
+		header nav ul li{
+			flex:1; 
+			text-decoration: none;
+			line-spacing:none;
+		}
+
+		.slider img{
+			border-bottom: 8px dotted rgb(55, 78, 78);
+			
+			height: 400px;
+			width: 1470px;
+			border-color: cyan;
+
+		}
+		.mainContainer{
+			border: 10px ;
+			flex: 2;
+		}
+		.left1 {
+			padding: 10px;
+			flex: 2;
+			border-left: 1px solid #ccc;
+			border-right: 1px solid #ccc;
+		}
+		.left2 {
+			padding: 10px;
+		}
+		.left3 {
+			padding: 10px;
+		}
+		.left4 {
+			padding: 10px;
+		}
+		.left5 {
+			padding: 10px;q
+		}
+		.left6 {
+			padding: 10px;
+		}
+
+		footer{
+			border-top: 10px solid #bbb;
+			height: 215px;
+			background: liner-gradient(orange,white,green)
+			display: flex;
+		}
+		footer div{
+			flex: 1;
+		}
+		marquee{
+			height: 50px;
+            overflow:visible;
+            position: relative;
+            background: #fefefe;
+            color: rgb(18, 202, 235);
+            border: 4px groove #4a4a4a;
+        }
+			
+		}
+	</style>
+</head>
+<body>
+	<section class="mainContainer">
+		<header>
+		<div>
+		<img src="js1.jpg" style="height: 50px" width="160px">
+		</div>
+		
+	
+	
+	<nav style="flex:3;">
+		<ul style="display: flex;">
+			<li >
+				<a href="#">Home</a>
+			</li>
+			<li >
+				<a href="#">About</a>
+			</li>
+			<li >
+				<a href="#">Service</a>
+			</li>
+			<li >
+				<a href="#">Clients</a>
+			</li>
+			<li >
+				<a href="#">Blog</a>
+			</li>
+			<li >
+				<a href="#">Contact us</a>
+			</li>
+		</ul>
+	</nav>
+
+	</header>
+
+
+	<section class="slider">
+		<img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/C1F3/production/_101815694_010346561.jpg">
+		
+	</section>
+	
+	<div style="display: flex;height: 300px";>	
+
+		<div style="flex: 1">Left slider bar
+			
+			<ul >
+
+			<li class="left1">
+				<a href="#">Money Transfer</a>
+			</li>
+			<li class="left2">
+				<a href="#">Donate Objects</a>
+			</li>
+			<li class="left3">
+				<a href="#">Donate Blade</a>
+			</li>
+			<li class="left4">
+				<a href="#">Deliver Food</a>
+			</li>
+			<li class="left5">
+				<a href="#">Help to Poor People</a>
+			</li>
+			<li class="left6">
+				<a href="#">Touch With Us</a>
+			</li>
+		</ul>
+
+		</div>
+		<div style="flex: 2;border-left: 1px solid pink;
+		border-right: 1px solid red;">Main slider bar</div>
+		<div style="flex: 3">Right slider bar</div>
+	
+	</div>
+	<footer>
+		<div>
+			<h3>Organization</h3>
+			<ul>
+				<li>
+					<a href="">Service</a>
+				</li>
+				<li>
+					<a href="">Help</a>
+				</li>
+				<li>
+					<a href="">Support</a>
+				</li>
+				<li>
+					<a href="">Share</a>
+				</li>
+				<li>
+					<a href="">Feed Back</a>
+				</li>
+			</ul>
+		</div>
+		<div>
+			<h3>Branches</h3>
+			<ul>
+				<li>
+					<a href="">NELLURE</a>
+				</li>
+				<li>
+					<a href="">KADAPA</a>
+				</li>
+				<li>
+					<a href="">ANATHAPURAM</a>
+				</li>
+				<li>
+					<a href="">KURNOOL</a>
+				</li>
+				<li>
+					<a href="">HYDERABAD</a>
+				</li>
+			</ul>
+		</div>
+		<div>
+			<h3>Colleges</h3>
+			<ul>
+				<li>
+					<a href="">VSU</a>
+				</li>
+				<li>
+					<a href="">SCDC</a>
+				</li>
+				<li>
+					<a href="">CVRAMAN</a>
+				</li>
+				<li>
+					<a href="">NALANDHA</a>
+				</li>
+				<li>
+					<a href="">RATNAS</a>
+				</li>
+				<li>
+					<a href="">VENUS</a>
+				</li>
+			</ul>
+		</div>
+		
+		
+	</footer>
+	<marquee >CHINNA DEVBELOPER </marquee>
+</section>
+</body>
+</html>
+

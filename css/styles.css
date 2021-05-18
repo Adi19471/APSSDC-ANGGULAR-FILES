@@ -1,0 +1,93 @@
+<style>
+		body{
+			border:6px double greenyellow;
+			background-color: hotpink;
+			/* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgD6Bq_MCYSHqm7-uiWGXyd2kJLQhqAbRArg&usqp=CAU'); */
+			background-repeat: no-repeat;
+			background-size: 500px 600px;
+			font-size: 20px;
+			font-family: 'Times New Roman', Times, serif;
+			
+			
+			background-size: auto;
+		}
+		header{
+			border-bottom: 1px solid red;
+			height: 50px;
+			display: flex;
+
+		}
+		header div{
+			flex: 1;
+			border-bottom: 1px solid red;
+			height: 50px; 
+			display:flex:1px;
+
+		}
+		header nav{
+			flex: 3;
+		}
+		header nav ul{
+			display: flex;
+			text-decoration: none;
+		}
+		header nav ul li{
+			flex:1; 
+			text-decoration: none;
+			line-spacing:none;
+		}
+
+		.slider img{
+			border-bottom: 8px dotted rgb(55, 78, 78);
+			
+			height: 400px;
+			width: 1470px;
+			border-color: cyan;
+
+		}
+		.mainContainer{
+			border: 10px ;
+			flex: 2;
+		}
+		.left1 {
+			padding: 10px;
+			flex: 2;
+			border-left: 1px solid #ccc;
+			border-right: 1px solid #ccc;
+		}
+		.left2 {
+			padding: 10px;
+		}
+		.left3 {
+			padding: 10px;
+		}
+		.left4 {
+			padding: 10px;
+		}
+		.left5 {
+			padding: 10px;
+		}
+		.left6 {
+			padding: 10px;
+		}
+
+		footer{
+			border-top: 10px solid #bbb;
+			height: 215px;
+			background: liner-gradient(orange,white,green)
+			display: flex;
+		}
+		footer div{
+			flex: 1;
+		}
+		marquee{
+			height: 50px;
+            overflow:visible;
+            position: relative;
+            background: #fefefe;
+            color: rgb(18, 202, 235);
+            border: 4px groove #4a4a4a;
+        }
+			
+		}
+	</style>

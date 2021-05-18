@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LAYOUT PAGE</title>
+        <style>
+            body{
+                section :hover{
+                    transform: scale(1.2,3.2);
+                }
+            }
+            section .floatEx{
+                float: left;
+                background-color:#fab;
+                width: 100%;
+                margin-bottom: 5px;
+            }
+
+
+            section .floatEx div{
+                float: left;             
+                width: 33.3%;
+                
+            }
+            section div:hover{
+                transform: scale(1.2,3.2);
+            }
+
+            .flexEx{
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: flex-start;
+                background-color: pink;
+                border:50px groove lightblue;
+                font-style: italic;
+                box-sizing: border-box;
+
+            }
+            .flexEx div{
+                flex: 1;
+            }
+
+        </style>
+    </head>
+    <body>
+        <section class="floatEx">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>              
+        </section>
+
+        <div>&nbsp;</div>
+
+        <section class="flexEx">
+            <div>CHINNA</div>
+            <div>WEB DEVELOPER @ Web Designer</div>
+            <div>APSSDC ADI NARAYANAREDDY</div>
+            
+        </section>
+    </body>
+</html>
